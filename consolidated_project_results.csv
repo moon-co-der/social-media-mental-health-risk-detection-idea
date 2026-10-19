@@ -1,0 +1,8 @@
+Analysis,Result,Interpretation
+C-SSRS E2 test evaluation,Accuracy=0.6388; Macro-F1=0.5079; Weighted-F1=0.6231,Classifier performance; default high-risk predictions under-detect behavior and attempt cases.
+Emotion–risk correlations,6 of 28 emotions significant after BH correction,Exploratory associations between emotion changes and E2-estimated risk-score changes.
+Multivariable regression: disappointment,Coefficient=0.4234; robust p=0.0004497; BH-adjusted p=0.003148,Positive association in the rate-adjusted model; not evidence of causation or clinical validity.
+Multivariable regression: fear,Coefficient=0.2966; robust p=0.05824; BH-adjusted p=0.2038,Not statistically significant after correction in the full-sample regression.
+Posting-rate predictor,Coefficient=-0.0036; p=0.4676,No statistically significant independent association in the full-sample model.
+Exploratory user-level indicators,Increased=25; Stable=189; Decreased=44,"Categories based on a ±0.10 score-change threshold; exploratory, not clinically validated."
+Activity sensitivity (at least 10 posts per window),N=170; mean change=-0.0134; median change=-0.0122,Indicator distributions vary with the minimum posting requirement.
