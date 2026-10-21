@@ -21,6 +21,42 @@ checkpoints/
 *.pth
 *.ckpt
 *.safetensors
+node_modules/
+frontend/dist/
+backend/.venv/
+backend/.pytest_cache/
 
 # Generated outputs
 results/predictions/
+
+models/
+
+*.bin
+
+backend/uploads/
+
+# Local caches, generated reports, and credentials
+.cache/
+.hf-cache/
+.vite/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+*.log
+*.tmp
+*.temp
+*.dump
+*.bak
+Thumbs.db
+.DS_Store
+datasets/
+private_data/
+*.parquet
+*.jsonl
+*.pem
+*.key
+*.p12
+*.pfx
+.pypirc
+.npmrc
